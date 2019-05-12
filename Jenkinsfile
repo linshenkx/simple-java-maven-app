@@ -6,5 +6,10 @@ pipeline {
         sh 'echo \'test\''
       }
     }
+    stage('t2') {
+      steps {
+        echo 't2'
+      }
+    }
   }
 }
