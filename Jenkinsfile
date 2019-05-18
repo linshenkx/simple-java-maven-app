@@ -9,6 +9,7 @@ pipeline {
     stage('t2') {
       steps {
         echo 't2'
+        sh 'echo \'t2 2\''
       }
     }
   }
